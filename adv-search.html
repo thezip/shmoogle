@@ -13,17 +13,61 @@
             <p>Розширений пошук</p>
         </div>
 
-        <div>
-            <form action="https://google.com/search">
-                <div class="input">
-                    <input id='search' type="text" name="q">
+        <div class="title">
+            <p>Знайти сторінки, що містять...</p>
+        </div>
+
+        <div class="input-fields">
+            <form action="https://google.com/search" method="GET" name="f">
+                <div class="input-field">
+                    <div class="description">
+                        <span>усі ці слова:</span>
+                    </div>
+
+                    <div>
+                        <input class="input-adv" value="" name="as_q" type="text">
+                    </div>
                 </div>
-                <div class="buttons">
-                    <input class="btn" type="submit" value="Пошук Google">
-                    <input type="hidden" name="hl" value="uk">
-                    <input type="hidden" name="tbm" value="isch">
-                </div>               
+
+                <div class="input-field">
+                    <div class="description">
+                        <span>точне слово або фразу:</span>
+                    </div>
+
+                    <div>
+                        <input class="input-adv" value="" name="as_epq" type="text">
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <div class="description">
+                        <span>будь-яке з цих слів:</span>
+                    </div>
+
+                    <div>
+                        <input class="input-adv" value="" name="as_oq" type="text">
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <div class="description">
+                        <span>жодне з цих слів:</span>
+                    </div>
+
+                    <div>
+                        <input class="input-adv" value="" name="as_eq" type="text">
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <div class="description"></div>
+
+                    <div>
+                        <input class="adv-btn" value="Розширений пошук" type="submit">
+                    </div>
+                </div>
             </form>
         </div>
+
     </body>
 </html>

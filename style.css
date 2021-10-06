@@ -40,14 +40,15 @@ a:hover {
   font-weight:700;
   display: flex;
   align-items: flex-end;
-  justify-content: center;  
+  justify-content: center;
+  position: relative;
 }
 
 form{
   text-align: center;
 }
 
-input[type="text"] {
+#search {
   height: 46px;
   width: 500px;
   border-radius: 24px;
@@ -77,4 +78,52 @@ input:focus {
 
 .btn:hover {
   border: 1px solid #cacbce;
+}
+
+.title, .input-field {
+  padding: 0 35px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 28px;
+}
+
+.input-adv {
+  width: 600px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  color: #bdc1c6;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+}
+
+.adv-btn {
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 12px;
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+  border-radius: 3px;
+  color: #202124;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.adv-btn:hover {
+  background: #adc9f7;
+  border-color: #6585b8;
+}
+
+.subtitle {
+  font-size: 15px;
+  color:yellowgreen;
+  position: absolute;
+  left: calc(50% + 130px);
 }
