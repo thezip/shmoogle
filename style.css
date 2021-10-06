@@ -11,10 +11,17 @@ body {
   color: white;
 }
 
-.header {
+.nav {
   padding: 15px;
   height: 30px;
   text-align:right;
+}
+
+.header {
+  font-size: 20px;
+  color: #f28b82;
+  padding: 0 35px 5px;
+  border-bottom: 1px solid #535353;
 }
 
 a {

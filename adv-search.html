@@ -6,22 +6,22 @@
     </head>
     <body>
         <div class="nav">
-            <a href="./img-search.html">Зображення</a>
-            <a href="./adv-search.html">Розширений пошук</a>
+            <a href="./index.html">Головна</a>
         </div>
 
-        <div class="logo">
-            Shmoogle
+        <div class="header">
+            <p>Розширений пошук</p>
         </div>
 
         <div>
-            <form action="https://google.com/search" method="GET">
+            <form action="https://google.com/search">
                 <div class="input">
                     <input id='search' type="text" name="q">
                 </div>
                 <div class="buttons">
-                    <input class="btn" type="submit" name="btnK" value="Пошук Google">
-                    <input class="btn" type="submit" name="btnI" value="Мені пощастить">
+                    <input class="btn" type="submit" value="Пошук Google">
+                    <input type="hidden" name="hl" value="uk">
+                    <input type="hidden" name="tbm" value="isch">
                 </div>               
             </form>
         </div>
